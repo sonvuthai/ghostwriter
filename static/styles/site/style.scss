@@ -2,7 +2,7 @@
 // ============================================================ //
 // ============================================================ //
 
-$primary: #F03838;
+$primary: #815007;
 $secondary: #303030;
 $background: #FEFEFE;
 
@@ -16,7 +16,7 @@ body {
     background: $background;
     color: #424242;
     font-family: "Open Sans", arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -290,9 +290,9 @@ table {
 
 .post-title,
 .page-title {
-    font-size: 52px;
+    font-size: 26px;
     font-weight: 700;
-    margin: 15px 0;
+    margin: 20px 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -369,7 +369,7 @@ table {
         background: $primary;
         color: #FFF;
         display: inline-block;
-        font-size: 16px;
+        font-size: 14px;
         margin-left: 5px;
         padding: 5px 0 4px;
         width: 30px;
@@ -433,6 +433,9 @@ table {
 
             .post-stub-tag { background: $primary; }
         }
+    }
+    time {
+        color: #42424265;
     }
 }
 
@@ -544,9 +547,9 @@ table {
 .footer {
     background: $secondary;
     color: #D3D3D3;
-    height: 265px;
-    margin-top: 95px;
-    overflow: auto;
+    height: 85px;
+    margin-top: 195px;
+    overflow: false;
 
     .site-title-wrapper { margin: 80px auto 35px; }
 
